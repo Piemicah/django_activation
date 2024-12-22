@@ -1,0 +1,23 @@
+GET http://127.0.0.1:8000/api/keys/
+
+######
+POST http://127.0.0.1:8000/api/add/
+content-type: application/json
+
+{
+    "activation_key": "ggghad"
+}
+
+########
+
+PUT http://127.0.0.1:8000/api/update/agtyj-jhkkii-9087/
+content-type: application/json
+
+{
+    "account":"45333",
+    "created": "tue 23:78"
+}
+
+###
+
+DELETE http://127.0.0.1:8000/api/delete/ggghad/
